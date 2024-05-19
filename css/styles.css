@@ -146,7 +146,7 @@ h2 {
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
 }
-/*  */
+/* cambios en carousel */
 .w-100-1 {
     width: 100%;
    
@@ -173,18 +173,82 @@ p {
     box-align: center;
 }
 
+
+/* grid para el equipo */
+
+.equipo-container{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24pt;
+    font-style: italic;
+    color: rgb(47, 11, 80);
+    display: grid;
+    grid-template-rows: repeat(15) 40px;
+    grid-template-columns: repeat(3, 3fr);
+    justify-content: center;
+    align-items: center;
+}
+
+.persona-1{
+    grid-column: 1/2;
+    justify-self: center;
+}
+
+.persona-2{
+    grid-column: 2/3;
+    justify-self: center;
+}
+
+.persona-3{
+    grid-column: 3/4;
+    justify-self: center;
+}
+.foto_main {
+    width: 100%;
+    padding: 10px;
+    margin: 10px;
+}
+
+.foto-1{
+    grid-column: 1/2;
+    grid-row: 2/6;
+    justify-self: center;
+}
+
+.foto-2{
+    grid-column: 2/3;
+    grid-row: 2/6;
+    justify-self: center;
+}
+.foto-3{
+    grid-column: 3/4;
+    grid-row: 2/6;
+    justify-self: center;
+}
+
+.texto-1{
+    margin: 10px;
+    grid-column: 1/2;
+    grid-row: 6/16;
+    justify-self: center;
+}
+.texto-2{
+    margin: 10px;
+    grid-column: 2/3;
+    grid-row: 6/16;
+    justify-self: center;
+}
+.texto-3{
+    margin: 10px;
+    grid-column: 3/4;
+    grid-row: 6/16;
+    justify-self: center;
+}
+
+
 footer {
     background-color: azure;
 }
 
-/* .footer-container {
-    display: grid;
-    grid-template-rows: 30px 30px;
-    grid-template-columns: repeat(5, 5fr);
-    justify-content: center;
-    align-items: center;
-    text-decoration: none;
-} */
 .navega-footer {
     display: grid;
     grid-template-rows: 40px;
@@ -216,7 +280,6 @@ li.foot-5 {
 }
 
 
-
 .logo_header {
     height: 70px;
     width: 70px;
@@ -226,7 +289,6 @@ li.foot-5 {
     border-style: inset;
 }
 
-
 ul.navega li {
     display: inline;
 }
@@ -235,11 +297,6 @@ ul.navega-footer li {
     display: inline;
 }
 
-
-.foto_main {
-    height: 250px;
-    width: 250px;
-}
 
 #personal li {
     display: inline;
