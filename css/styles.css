@@ -289,6 +289,18 @@ li.foot-5 {
     border-style: inset;
 }
 
+
+/* defino grid de servicios */
+
+.servicios-container{
+    display: grid;
+    grid-template-rows: repeat(4) 50px;
+    grid-template-columns: 1fr 2fr 1fr;
+    justify-content: center;
+    align-items: center;
+    grid-column-gap: 20px;
+}
+
 ul.navega li {
     display: inline;
 }
