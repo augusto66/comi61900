@@ -146,10 +146,11 @@ h2 {
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
 }
+
 /* cambios en carousel */
 .w-100-1 {
     width: 100%;
-   
+
 }
 
 .carousel-w {
@@ -176,7 +177,7 @@ p {
 
 /* grid para el equipo */
 
-.equipo-container{
+.equipo-container {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 24pt;
     font-style: italic;
@@ -188,56 +189,60 @@ p {
     align-items: center;
 }
 
-.persona-1{
+.persona-1 {
     grid-column: 1/2;
     justify-self: center;
 }
 
-.persona-2{
+.persona-2 {
     grid-column: 2/3;
     justify-self: center;
 }
 
-.persona-3{
+.persona-3 {
     grid-column: 3/4;
     justify-self: center;
 }
+
 .foto_main {
     width: 100%;
     padding: 10px;
     margin: 10px;
 }
 
-.foto-1{
+.foto-1 {
     grid-column: 1/2;
     grid-row: 2/6;
     justify-self: center;
 }
 
-.foto-2{
+.foto-2 {
     grid-column: 2/3;
     grid-row: 2/6;
     justify-self: center;
 }
-.foto-3{
+
+.foto-3 {
     grid-column: 3/4;
     grid-row: 2/6;
     justify-self: center;
 }
 
-.texto-1{
+.texto-1 {
     margin: 10px;
     grid-column: 1/2;
     grid-row: 6/16;
     justify-self: center;
 }
-.texto-2{
+
+.texto-2 {
     margin: 10px;
     grid-column: 2/3;
     grid-row: 6/16;
     justify-self: center;
 }
-.texto-3{
+
+.texto-3 {
     margin: 10px;
     grid-column: 3/4;
     grid-row: 6/16;
@@ -292,13 +297,71 @@ li.foot-5 {
 
 /* defino grid de servicios */
 
-.servicios-container{
+.servicios-container {
     display: grid;
     grid-template-rows: repeat(4) 50px;
     grid-template-columns: 1fr 2fr 1fr;
     justify-content: center;
     align-items: center;
     grid-column-gap: 20px;
+}
+
+/* defino grid instalaciones  */
+
+.instalaciones-container {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    grid-column-gap: 5px;
+}
+
+
+.foto_main_insta {
+    width: 100%;
+    padding: 10px;
+    margin: 10px;
+}
+
+.fotoins-1 {
+    grid-column: 1/2;
+    grid-row: 1/2;
+    justify-self: center;
+}
+
+.fotoins-2 {
+    grid-column: 2/3;
+    grid-row: 1/2;
+    justify-self: center;
+}
+
+.fotoins-3 {
+    grid-column: 3/4;
+    grid-row: 1/2;
+    justify-self: center;
+}
+
+.fotoins-4 {
+    grid-column: 4/5;
+    grid-row: 1/2;
+    justify-self: center;
+}
+
+.texto-insta {
+    grid-column: 1/5;
+    grid-row: 2/3;
+    justify-self: center;
+}
+
+.donde-tit {
+    grid-column: 1/5;
+    grid-row: 3/4;
+    justify-self: center;
+}
+
+.donde {
+    grid-column: 1/5;
+    grid-row: 4/5;
+    justify-self: center;
 }
 
 ul.navega li {
@@ -313,11 +376,5 @@ ul.navega-footer li {
 #personal li {
     display: inline;
     padding-left: 200px;
-
-}
-
-#donde {
-    height: 200px;
-    width: 75%;
 
 }
